@@ -7,4 +7,4 @@ The project adds a multi process feature by having multiple processes working on
 
 There was an added element of scheduling, such as a CPU scheduler that would make the child processes wait for a signal from the parent process that would allow them to begin or pause their work. Once a child was finished, the parent process would no longer continue to call on them, but instead tend to the child processes that still had work to do.
 
-All the code was written using C.
+All the code was written using C and was intented to be ran in Linux OS.
